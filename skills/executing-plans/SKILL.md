@@ -22,6 +22,7 @@ Load plan, review critically, execute tasks in batches, report for review betwee
 4. If no concerns: Create TodoWrite and proceed
 
 ### Step 2: Execute Batch
+**REQUIRED SUB-SKILL:** Use superpowers:using-git-worktrees
 **Default: First 3 tasks**
 
 For each task:

@@ -211,7 +211,7 @@ Write code before test? Delete it. Start over.
 
 ```markdown
 ## Red Flags - STOP
-
+**The following MUST be observed**
 - "Keep as reference" or "adapt existing code"
 - "I'm following the spirit not the letter"
 ```

@@ -192,7 +192,7 @@ Ready to implement auth feature
 ```
 
 ## Red Flags
-
+**The following MUST be observed**
 **Never:**
 - Create worktree without verifying it's ignored (project-local)
 - Skip baseline test verification

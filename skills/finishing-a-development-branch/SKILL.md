@@ -177,7 +177,7 @@ git worktree remove <worktree-path>
 - **Fix:** Require typed "discard" confirmation
 
 ## Red Flags
-
+**The following MUST be observed**
 **Never:**
 - Proceed with failing tests
 - Merge without verifying tests on result

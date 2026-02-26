@@ -169,6 +169,7 @@ BEFORE mocking any method:
     THEN add minimal mocking at the right level
 
   Red flags:
+    **The following MUST be observed**
     - "I'll mock this to be safe"
     - "This might be slow, better mock it"
     - Mocking without understanding the dependency chain
@@ -282,7 +283,7 @@ TDD cycle:
 | Over-complex mocks | Consider integration tests |
 
 ## Red Flags
-
+**The following MUST be observed**
 - Assertion checks for `*-mock` test IDs
 - Methods only called in test files
 - Mock setup is >50% of test

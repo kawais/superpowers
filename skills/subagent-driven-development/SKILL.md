@@ -60,8 +60,10 @@ digraph process {
     "More tasks remain?" [shape=diamond];
     "Dispatch final code reviewer subagent for entire implementation" [shape=box];
     "Use superpowers:finishing-a-development-branch" [shape=box style=filled fillcolor=lightgreen];
+    "Use superpowers:using-git-worktrees" [shape=box style=filled fillcolor=lightblue];
 
-    "Read plan, extract all tasks with full text, note context, create TodoWrite" -> "Dispatch implementer subagent (./implementer-prompt.md)";
+    "Read plan, extract all tasks with full text, note context, create TodoWrite" -> "Use superpowers:using-git-worktrees";
+    "Use superpowers:using-git-worktrees" -> "Dispatch implementer subagent (./implementer-prompt.md)";
     "Dispatch implementer subagent (./implementer-prompt.md)" -> "Implementer subagent asks questions?";
     "Implementer subagent asks questions?" -> "Answer questions, provide context" [label="yes"];
     "Answer questions, provide context" -> "Dispatch implementer subagent (./implementer-prompt.md)";
@@ -197,7 +199,7 @@ Done!
 - But catches issues early (cheaper than debugging later)
 
 ## Red Flags
-
+**The following MUST be observed**
 **Never:**
 - Start implementation on main/master branch without explicit user consent
 - Skip reviews (spec compliance OR code quality)
