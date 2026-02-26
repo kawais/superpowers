@@ -213,7 +213,7 @@ You MUST complete each phase before proceeding to the next.
    This is NOT a failed hypothesis - this is a wrong architecture.
 
 ## Red Flags - STOP and Follow Process
-
+**The following MUST be observed**
 If you catch yourself thinking:
 - "Quick fix for now, investigate later"
 - "Just try changing X and see if it works"

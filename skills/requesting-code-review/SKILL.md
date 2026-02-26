@@ -90,7 +90,7 @@ You: [Fix progress indicators]
 - Review when stuck
 
 ## Red Flags
-
+**The following MUST be observed**
 **Never:**
 - Skip review because "it's simple"
 - Ignore Critical issues

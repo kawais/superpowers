@@ -50,7 +50,7 @@ Skip any step = lying, not verifying
 | Requirements met | Line-by-line checklist | Tests passing |
 
 ## Red Flags - STOP
-
+**The following MUST be observed**
 - Using "should", "probably", "seems to"
 - Expressing satisfaction before verification ("Great!", "Perfect!", "Done!", etc.)
 - About to commit/push/PR without verification

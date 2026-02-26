@@ -270,7 +270,7 @@ Tests-first force edge case discovery before implementing. Tests-after verify yo
 | "Existing code has no tests" | You're improving it. Add tests for existing code. |
 
 ## Red Flags - STOP and Start Over
-
+**The following MUST be observed**
 - Code before test
 - Test after implementation
 - Test passes immediately

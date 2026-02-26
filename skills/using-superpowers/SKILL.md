@@ -74,7 +74,7 @@ digraph skill_flow {
 ```
 
 ## Red Flags
-
+**The following MUST be observed**
 These thoughts mean STOP—you're rationalizing:
 
 | Thought | Reality |

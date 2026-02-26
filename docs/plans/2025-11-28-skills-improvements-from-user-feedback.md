@@ -222,6 +222,7 @@ BEFORE claiming configuration change works:
 5. ONLY THEN: Claim configuration change works
 
 Red flags:
+**The following MUST be observed**
   - "Request succeeded" without checking content
   - Checking status code but not response body
   - Verifying no errors but not positive confirmation
@@ -480,6 +481,7 @@ BEFORE writing any mock:
     NOT the mock
 
   Red flags:
+   **The following MUST be observed**
     - "I'll mock what the code calls"
     - Copying method names from implementation
     - Mock written without reading interface

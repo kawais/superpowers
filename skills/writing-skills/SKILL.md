@@ -513,6 +513,7 @@ Make it easy for agents to self-check when rationalizing:
 ```markdown
 ## Red Flags - STOP and Start Over
 
+**The following MUST be observed**
 - Code before test
 - "I already manually tested it"
 - "Tests after achieve the same purpose"
